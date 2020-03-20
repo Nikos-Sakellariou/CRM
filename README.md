@@ -16,3 +16,6 @@ It is a custom-made desktop application for commercial purposes. This applicatio
 ## Requires
 * MS SQL Server
 * VS 2019
+
+## Menu Language
+* Greek

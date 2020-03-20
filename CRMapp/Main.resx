@@ -1,0 +1,2064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;AlertsDocsLbl.Name" xml:space="preserve">
+    <value>AlertsDocsLbl</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Name" xml:space="preserve">
+    <value>TimeTxtBox</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Name" xml:space="preserve">
+    <value>AlertsLbl</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Name" xml:space="preserve">
+    <value>NotesLbl</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Name" xml:space="preserve">
+    <value>SettingsBox</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Name" xml:space="preserve">
+    <value>AlertsProdCustSupBox</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Name" xml:space="preserve">
+    <value>NotesBox</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Name" xml:space="preserve">
+    <value>HeaderLblPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Name" xml:space="preserve">
+    <value>MaxiBox</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Name" xml:space="preserve">
+    <value>MiniBox</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Name" xml:space="preserve">
+    <value>ExitBox</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Name" xml:space="preserve">
+    <value>LogoPanel</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Name" xml:space="preserve">
+    <value>ToolsPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HeaderPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="HeaderPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="HeaderPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="HeaderPanel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="HeaderPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 93</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HeaderPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Name" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AlertsDocsLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsDocsLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsDocsLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="AlertsDocsLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>746, 38</value>
+  </data>
+  <data name="AlertsDocsLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="AlertsDocsLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.Name" xml:space="preserve">
+    <value>AlertsDocsLbl</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TimeTxtBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TimeTxtBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 14.25pt, style=Bold</value>
+  </data>
+  <data name="TimeTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 57</value>
+  </data>
+  <data name="TimeTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 27</value>
+  </data>
+  <data name="TimeTxtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TimeTxtBox.Text" xml:space="preserve">
+    <value>21:37 PM</value>
+  </data>
+  <data name="TimeTxtBox.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Name" xml:space="preserve">
+    <value>TimeTxtBox</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;TimeTxtBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AlertsLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="AlertsLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>775, 12</value>
+  </data>
+  <data name="AlertsLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="AlertsLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Name" xml:space="preserve">
+    <value>AlertsLbl</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NotesLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NotesLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NotesLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="NotesLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 12</value>
+  </data>
+  <data name="NotesLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="NotesLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Name" xml:space="preserve">
+    <value>NotesLbl</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SettingsBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="SettingsBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SettingsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 63</value>
+  </data>
+  <data name="SettingsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="SettingsBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="SettingsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Name" xml:space="preserve">
+    <value>SettingsBox</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AlertsProdCustSupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsProdCustSupBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AlertsProdCustSupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 63</value>
+  </data>
+  <data name="AlertsProdCustSupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="AlertsProdCustSupBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AlertsProdCustSupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Name" xml:space="preserve">
+    <value>AlertsProdCustSupBox</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsProdCustSupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NotesBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NotesBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="NotesBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NotesBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 63</value>
+  </data>
+  <data name="NotesBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="NotesBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="NotesBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Name" xml:space="preserve">
+    <value>NotesBox</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Name" xml:space="preserve">
+    <value>HeaderLbl</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Parent" xml:space="preserve">
+    <value>HeaderLblPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HeaderLblPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 39</value>
+  </data>
+  <data name="HeaderLblPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 51</value>
+  </data>
+  <data name="HeaderLblPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Name" xml:space="preserve">
+    <value>HeaderLblPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLblPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="HeaderLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HeaderLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Unicode MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="HeaderLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 11</value>
+  </data>
+  <data name="HeaderLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="HeaderLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="HeaderLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Name" xml:space="preserve">
+    <value>HeaderLbl</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.Parent" xml:space="preserve">
+    <value>HeaderLblPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MaxiBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="MaxiBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MaxiBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 12</value>
+  </data>
+  <data name="MaxiBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 39</value>
+  </data>
+  <data name="MaxiBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="MaxiBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Name" xml:space="preserve">
+    <value>MaxiBox</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;MaxiBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="MiniBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="MiniBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MiniBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 12</value>
+  </data>
+  <data name="MiniBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 39</value>
+  </data>
+  <data name="MiniBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="MiniBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Name" xml:space="preserve">
+    <value>MiniBox</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;MiniBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ExitBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ExitBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ExitBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExitBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>942, 12</value>
+  </data>
+  <data name="ExitBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 39</value>
+  </data>
+  <data name="ExitBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="ExitBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Name" xml:space="preserve">
+    <value>ExitBox</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ExitBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LogoPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="LogoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LogoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LogoPanel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="LogoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 93</value>
+  </data>
+  <data name="LogoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Name" xml:space="preserve">
+    <value>LogoPanel</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ToolsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Name" xml:space="preserve">
+    <value>AlertsDocsBox</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Parent" xml:space="preserve">
+    <value>ToolsPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToolsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 57</value>
+  </data>
+  <data name="ToolsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="ToolsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Name" xml:space="preserve">
+    <value>ToolsPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolsPanel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="AlertsDocsBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsDocsBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AlertsDocsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 6</value>
+  </data>
+  <data name="AlertsDocsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="AlertsDocsBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AlertsDocsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Name" xml:space="preserve">
+    <value>AlertsDocsBox</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.Parent" xml:space="preserve">
+    <value>ToolsPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NotesPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NotesPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Name" xml:space="preserve">
+    <value>NotesControlPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Parent" xml:space="preserve">
+    <value>NotesPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Name" xml:space="preserve">
+    <value>AddNoteBtn</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Parent" xml:space="preserve">
+    <value>NotesPanel</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NotesPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 93</value>
+  </data>
+  <data name="NotesPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 260</value>
+  </data>
+  <data name="NotesPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 60</value>
+  </data>
+  <data name="NotesPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NotesPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NotesPanel.Name" xml:space="preserve">
+    <value>NotesPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NotesPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NotesControlPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NotesControlPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NotesControlPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="NotesControlPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NotesControlPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 200</value>
+  </data>
+  <data name="NotesControlPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="NotesControlPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Name" xml:space="preserve">
+    <value>NotesControlPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.Parent" xml:space="preserve">
+    <value>NotesPanel</value>
+  </data>
+  <data name="&gt;&gt;NotesControlPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddNoteBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="AddNoteBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AddNoteBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddNoteBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="AddNoteBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 44</value>
+  </data>
+  <data name="AddNoteBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AddNoteBtn.Text" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Name" xml:space="preserve">
+    <value>AddNoteBtn</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.Parent" xml:space="preserve">
+    <value>NotesPanel</value>
+  </data>
+  <data name="&gt;&gt;AddNoteBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Name" xml:space="preserve">
+    <value>CardSupplierBtn</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Name" xml:space="preserve">
+    <value>EditSupplierButton</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Name" xml:space="preserve">
+    <value>AddSupplierButton</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Name" xml:space="preserve">
+    <value>SuppliersButton</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Name" xml:space="preserve">
+    <value>EditProductButton</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Name" xml:space="preserve">
+    <value>AddProductButton</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Name" xml:space="preserve">
+    <value>ProductsButton</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Name" xml:space="preserve">
+    <value>CardCustomerBtn</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Name" xml:space="preserve">
+    <value>EditCustomerButton</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Name" xml:space="preserve">
+    <value>AddCustomerButton</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Name" xml:space="preserve">
+    <value>CustomersButton</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Name" xml:space="preserve">
+    <value>PrintButton</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Name" xml:space="preserve">
+    <value>OrdersButton</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Name" xml:space="preserve">
+    <value>SalesButton</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Name" xml:space="preserve">
+    <value>DocumentButton</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="MenuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="MenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="MenuPanel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="MenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 483</value>
+  </data>
+  <data name="MenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Name" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CardSupplierBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="CardSupplierBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CardSupplierBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="CardSupplierBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="CardSupplierBtn.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CardSupplierBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CardSupplierBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 560</value>
+  </data>
+  <data name="CardSupplierBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="CardSupplierBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="CardSupplierBtn.Text" xml:space="preserve">
+    <value>                            Καρτέλα</value>
+  </data>
+  <data name="CardSupplierBtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CardSupplierBtn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Name" xml:space="preserve">
+    <value>CardSupplierBtn</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CardSupplierBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditSupplierButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="EditSupplierButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="EditSupplierButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="EditSupplierButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="EditSupplierButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditSupplierButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditSupplierButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 520</value>
+  </data>
+  <data name="EditSupplierButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="EditSupplierButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="EditSupplierButton.Text" xml:space="preserve">
+    <value>                            Επεξεργασία</value>
+  </data>
+  <data name="EditSupplierButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditSupplierButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Name" xml:space="preserve">
+    <value>EditSupplierButton</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditSupplierButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AddSupplierButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AddSupplierButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AddSupplierButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="AddSupplierButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="AddSupplierButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddSupplierButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddSupplierButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 480</value>
+  </data>
+  <data name="AddSupplierButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="AddSupplierButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="AddSupplierButton.Text" xml:space="preserve">
+    <value>                            Προσθήκη</value>
+  </data>
+  <data name="AddSupplierButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddSupplierButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Name" xml:space="preserve">
+    <value>AddSupplierButton</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddSupplierButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SuppliersButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="SuppliersButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SuppliersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="SuppliersButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="SuppliersButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SuppliersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SuppliersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 440</value>
+  </data>
+  <data name="SuppliersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="SuppliersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SuppliersButton.Text" xml:space="preserve">
+    <value>                            Προμηθευτές</value>
+  </data>
+  <data name="SuppliersButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Name" xml:space="preserve">
+    <value>SuppliersButton</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;SuppliersButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EditProductButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="EditProductButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="EditProductButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="EditProductButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="EditProductButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditProductButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditProductButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 400</value>
+  </data>
+  <data name="EditProductButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="EditProductButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="EditProductButton.Text" xml:space="preserve">
+    <value>                            Επεξεργασία</value>
+  </data>
+  <data name="EditProductButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditProductButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Name" xml:space="preserve">
+    <value>EditProductButton</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditProductButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AddProductButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AddProductButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AddProductButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="AddProductButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="AddProductButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddProductButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddProductButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 360</value>
+  </data>
+  <data name="AddProductButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="AddProductButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AddProductButton.Text" xml:space="preserve">
+    <value>                            Προσθήκη</value>
+  </data>
+  <data name="AddProductButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddProductButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Name" xml:space="preserve">
+    <value>AddProductButton</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddProductButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ProductsButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="ProductsButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ProductsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ProductsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="ProductsButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ProductsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 320</value>
+  </data>
+  <data name="ProductsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="ProductsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ProductsButton.Text" xml:space="preserve">
+    <value>                            Προϊόντα</value>
+  </data>
+  <data name="ProductsButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Name" xml:space="preserve">
+    <value>ProductsButton</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CardCustomerBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="CardCustomerBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CardCustomerBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="CardCustomerBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="CardCustomerBtn.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CardCustomerBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CardCustomerBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 280</value>
+  </data>
+  <data name="CardCustomerBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="CardCustomerBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="CardCustomerBtn.Text" xml:space="preserve">
+    <value>                            Καρτέλα</value>
+  </data>
+  <data name="CardCustomerBtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CardCustomerBtn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Name" xml:space="preserve">
+    <value>CardCustomerBtn</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CardCustomerBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditCustomerButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="EditCustomerButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="EditCustomerButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="EditCustomerButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="EditCustomerButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditCustomerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditCustomerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 240</value>
+  </data>
+  <data name="EditCustomerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="EditCustomerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="EditCustomerButton.Text" xml:space="preserve">
+    <value>                            Επεξεργασία</value>
+  </data>
+  <data name="EditCustomerButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="EditCustomerButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Name" xml:space="preserve">
+    <value>EditCustomerButton</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EditCustomerButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AddCustomerButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AddCustomerButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AddCustomerButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="AddCustomerButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="AddCustomerButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddCustomerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddCustomerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 200</value>
+  </data>
+  <data name="AddCustomerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="AddCustomerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AddCustomerButton.Text" xml:space="preserve">
+    <value>                            Προσθήκη</value>
+  </data>
+  <data name="AddCustomerButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AddCustomerButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Name" xml:space="preserve">
+    <value>AddCustomerButton</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;AddCustomerButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CustomersButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="CustomersButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CustomersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="CustomersButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="CustomersButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CustomersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CustomersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 160</value>
+  </data>
+  <data name="CustomersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="CustomersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CustomersButton.Text" xml:space="preserve">
+    <value>                            Πελάτες</value>
+  </data>
+  <data name="CustomersButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Name" xml:space="preserve">
+    <value>CustomersButton</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PrintButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="PrintButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="PrintButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="PrintButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="PrintButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="PrintButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PrintButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="PrintButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="PrintButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PrintButton.Text" xml:space="preserve">
+    <value>                            Εκτυπώσεις</value>
+  </data>
+  <data name="PrintButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="PrintButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Name" xml:space="preserve">
+    <value>PrintButton</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="OrdersButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="OrdersButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="OrdersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OrdersButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="OrdersButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="OrdersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OrdersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 80</value>
+  </data>
+  <data name="OrdersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="OrdersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="OrdersButton.Text" xml:space="preserve">
+    <value>                            Προμηθευτές</value>
+  </data>
+  <data name="OrdersButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="OrdersButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Name" xml:space="preserve">
+    <value>OrdersButton</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="SalesButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="SalesButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SalesButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="SalesButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="SalesButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SalesButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SalesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="SalesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="SalesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SalesButton.Text" xml:space="preserve">
+    <value>                            Πελάτες</value>
+  </data>
+  <data name="SalesButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SalesButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Name" xml:space="preserve">
+    <value>SalesButton</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;SalesButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DocumentButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DocumentButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DocumentButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="DocumentButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="DocumentButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="DocumentButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DocumentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="DocumentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DocumentButton.Text" xml:space="preserve">
+    <value>                            Παραστατικά</value>
+  </data>
+  <data name="DocumentButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Name" xml:space="preserve">
+    <value>DocumentButton</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;DocumentButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>FooterPanel</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FooterPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="FooterPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 576</value>
+  </data>
+  <data name="FooterPanel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FooterPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 27</value>
+  </data>
+  <data name="FooterPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FooterPanel.Name" xml:space="preserve">
+    <value>FooterPanel</value>
+  </data>
+  <data name="&gt;&gt;FooterPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FooterPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FooterPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Italic</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 4</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>NSI Systems 2018 Copyright ©</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>FooterPanel</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MainPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MainPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 93</value>
+  </data>
+  <data name="MainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 483</value>
+  </data>
+  <data name="MainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Name" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AlertsDocsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsDocsPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsDocsPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsDocsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 93</value>
+  </data>
+  <data name="AlertsDocsPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 260</value>
+  </data>
+  <data name="AlertsDocsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 5</value>
+  </data>
+  <data name="AlertsDocsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AlertsDocsPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsPanel.Name" xml:space="preserve">
+    <value>AlertsDocsPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlertsDocsPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="BackgroundNotesLoader.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="NotesToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>204, 17</value>
+  </metadata>
+  <metadata name="AlertsToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 17</value>
+  </metadata>
+  <metadata name="SettingsToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>398, 17</value>
+  </metadata>
+  <data name="AlertsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AlertsPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlertsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 93</value>
+  </data>
+  <data name="AlertsPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 260</value>
+  </data>
+  <data name="AlertsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 5</value>
+  </data>
+  <data name="AlertsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AlertsPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AlertsPanel.Name" xml:space="preserve">
+    <value>AlertsPanel</value>
+  </data>
+  <data name="&gt;&gt;AlertsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlertsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="AlertDocsToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>534, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>100</value>
+  </metadata>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 603</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;BackgroundNotesLoader.Name" xml:space="preserve">
+    <value>BackgroundNotesLoader</value>
+  </data>
+  <data name="&gt;&gt;BackgroundNotesLoader.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesToolTip.Name" xml:space="preserve">
+    <value>NotesToolTip</value>
+  </data>
+  <data name="&gt;&gt;NotesToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertsToolTip.Name" xml:space="preserve">
+    <value>AlertsToolTip</value>
+  </data>
+  <data name="&gt;&gt;AlertsToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsToolTip.Name" xml:space="preserve">
+    <value>SettingsToolTip</value>
+  </data>
+  <data name="&gt;&gt;SettingsToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlertDocsToolTip.Name" xml:space="preserve">
+    <value>AlertDocsToolTip</value>
+  </data>
+  <data name="&gt;&gt;AlertDocsToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

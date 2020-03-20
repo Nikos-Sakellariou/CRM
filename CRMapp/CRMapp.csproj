@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3764F4B-C299-47F6-9B4D-FC72930E2CD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMapp</RootNamespace>
+    <AssemblyName>CRMapp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CardSupplier.Designer.cs">
+      <DependentUpon>CardSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitInvFromInvCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DebitInvFromInvCustomer.Designer.cs">
+      <DependentUpon>DebitInvFromInvCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitInvoiceCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DebitInvoiceCustomer.Designer.cs">
+      <DependentUpon>DebitInvoiceCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisNoteReturnSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisNoteReturnSupplier.Designer.cs">
+      <DependentUpon>DisNoteReturnSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisNoteCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisNoteCustomer.Designer.cs">
+      <DependentUpon>DisNoteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisNoteSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisNoteSupplier.Designer.cs">
+      <DependentUpon>DisNoteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitInvFromInvSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DebitInvFromInvSupplier.Designer.cs">
+      <DependentUpon>DebitInvFromInvSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlertView.Designer.cs">
+      <DependentUpon>AlertView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CardCustomer.Designer.cs">
+      <DependentUpon>CardCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveAddProduct.Designer.cs">
+      <DependentUpon>ReserveAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderAddProduct.Designer.cs">
+      <DependentUpon>OrderAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindDisNoteReturnSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindDisNoteReturnSupplier.Designer.cs">
+      <DependentUpon>OrderFindDisNoteReturnSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDebitInvoiceSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDebitInvoiceSupplier.Designer.cs">
+      <DependentUpon>PreviewDebitInvoiceSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDisNoteReturnSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDisNoteReturnSupplier.Designer.cs">
+      <DependentUpon>PreviewDisNoteReturnSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDisNoteSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDisNoteSupplier.Designer.cs">
+      <DependentUpon>PreviewDisNoteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewInvoiceSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewInvoiceSupplier.Designer.cs">
+      <DependentUpon>PreviewInvoiceSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewReceiptToSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewReceiptToSupplier.Designer.cs">
+      <DependentUpon>PreviewReceiptToSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewReceiptSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewReceiptSupplier.Designer.cs">
+      <DependentUpon>PreviewReceiptSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewReceiptCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewReceiptCustomer.Designer.cs">
+      <DependentUpon>PreviewReceiptCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDisNoteCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDisNoteCustomer.Designer.cs">
+      <DependentUpon>PreviewDisNoteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDebitInvoiceCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDebitInvoiceCustomer.Designer.cs">
+      <DependentUpon>PreviewDebitInvoiceCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewInvoiceCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewInvoiceCustomer.Designer.cs">
+      <DependentUpon>PreviewInvoiceCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesPrint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SalesPrint.Designer.cs">
+      <DependentUpon>SalesPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvoiceCustomer.Designer.cs">
+      <DependentUpon>InvoiceCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDisNoteCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvoiceDisNoteCustomer.Designer.cs">
+      <DependentUpon>InvoiceDisNoteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderAddCustomer.Designer.cs">
+      <DependentUpon>OrderAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindCustomer.Designer.cs">
+      <DependentUpon>OrderFindCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindDisNoteCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindDisNoteCustomer.Designer.cs">
+      <DependentUpon>OrderFindDisNoteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindInvoiceCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindInvoiceCustomer.Designer.cs">
+      <DependentUpon>OrderFindInvoiceCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReceiptCustomer.Designer.cs">
+      <DependentUpon>ReceiptCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptToSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReceiptToSupplier.Designer.cs">
+      <DependentUpon>ReceiptToSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleKindCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaleKindCustomer.Designer.cs">
+      <DependentUpon>SaleKindCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDisNoteSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvoiceDisNoteSupplier.Designer.cs">
+      <DependentUpon>InvoiceDisNoteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitInvoiceSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DebitInvoiceSupplier.Designer.cs">
+      <DependentUpon>DebitInvoiceSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindInvoice.Designer.cs">
+      <DependentUpon>OrderFindInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindDisNoteSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindDisNoteSupplier.Designer.cs">
+      <DependentUpon>OrderFindDisNoteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReceiptSupplier.Designer.cs">
+      <DependentUpon>ReceiptSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderKindSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderKindSupplier.Designer.cs">
+      <DependentUpon>OrderKindSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAddSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderAddSupplier.Designer.cs">
+      <DependentUpon>OrderAddSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFindSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderFindSupplier.Designer.cs">
+      <DependentUpon>OrderFindSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNoteForm.Designer.cs">
+      <DependentUpon>AddNoteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddSupplier.Designer.cs">
+      <DependentUpon>AddSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceNotWorking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvoiceNotWorking.Designer.cs">
+      <DependentUpon>InvoiceNotWorking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvoiceSupplier.Designer.cs">
+      <DependentUpon>InvoiceSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditSupplier.Designer.cs">
+      <DependentUpon>EditSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditCustomer.Designer.cs">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checks.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotificationView.Designer.cs">
+      <DependentUpon>NotificationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AddCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CardSupplier.resx">
+      <DependentUpon>CardSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitInvFromInvCustomer.resx">
+      <DependentUpon>DebitInvFromInvCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitInvoiceCustomer.resx">
+      <DependentUpon>DebitInvoiceCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisNoteReturnSupplier.resx">
+      <DependentUpon>DisNoteReturnSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisNoteCustomer.resx">
+      <DependentUpon>DisNoteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisNoteSupplier.resx">
+      <DependentUpon>DisNoteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitInvFromInvSupplier.resx">
+      <DependentUpon>DebitInvFromInvSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertView.resx">
+      <DependentUpon>AlertView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardCustomer.resx">
+      <DependentUpon>CardCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveAddProduct.resx">
+      <DependentUpon>ReserveAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderAddProduct.resx">
+      <DependentUpon>OrderAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindDisNoteReturnSupplier.resx">
+      <DependentUpon>OrderFindDisNoteReturnSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDebitInvoiceSupplier.resx">
+      <DependentUpon>PreviewDebitInvoiceSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDisNoteReturnSupplier.resx">
+      <DependentUpon>PreviewDisNoteReturnSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDisNoteSupplier.resx">
+      <DependentUpon>PreviewDisNoteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewInvoiceSupplier.resx">
+      <DependentUpon>PreviewInvoiceSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewReceiptToSupplier.resx">
+      <DependentUpon>PreviewReceiptToSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewReceiptSupplier.resx">
+      <DependentUpon>PreviewReceiptSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewReceiptCustomer.resx">
+      <DependentUpon>PreviewReceiptCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDisNoteCustomer.resx">
+      <DependentUpon>PreviewDisNoteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDebitInvoiceCustomer.resx">
+      <DependentUpon>PreviewDebitInvoiceCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewInvoiceCustomer.resx">
+      <DependentUpon>PreviewInvoiceCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesPrint.resx">
+      <DependentUpon>SalesPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceCustomer.resx">
+      <DependentUpon>InvoiceCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDisNoteCustomer.resx">
+      <DependentUpon>InvoiceDisNoteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderAddCustomer.resx">
+      <DependentUpon>OrderAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindCustomer.resx">
+      <DependentUpon>OrderFindCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindDisNoteCustomer.resx">
+      <DependentUpon>OrderFindDisNoteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindInvoiceCustomer.resx">
+      <DependentUpon>OrderFindInvoiceCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptCustomer.resx">
+      <DependentUpon>ReceiptCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptToSupplier.resx">
+      <DependentUpon>ReceiptToSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleKindCustomer.resx">
+      <DependentUpon>SaleKindCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDisNoteSupplier.resx">
+      <DependentUpon>InvoiceDisNoteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitInvoiceSupplier.resx">
+      <DependentUpon>DebitInvoiceSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindInvoice.resx">
+      <DependentUpon>OrderFindInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindDisNoteSupplier.resx">
+      <DependentUpon>OrderFindDisNoteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptSupplier.resx">
+      <DependentUpon>ReceiptSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderKindSupplier.resx">
+      <DependentUpon>OrderKindSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderAddSupplier.resx">
+      <DependentUpon>OrderAddSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderFindSupplier.resx">
+      <DependentUpon>OrderFindSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNoteForm.resx">
+      <DependentUpon>AddNoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSupplier.resx">
+      <DependentUpon>AddSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceNotWorking.resx">
+      <DependentUpon>InvoiceNotWorking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceSupplier.resx">
+      <DependentUpon>InvoiceSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSupplier.resx">
+      <DependentUpon>EditSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProduct.resx">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustomer.resx">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationView.resx">
+      <DependentUpon>NotificationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Alert.png" />
+    <Content Include="Image\AlertBulb.png" />
+    <Content Include="Image\Back.png" />
+    <Content Include="Image\Customers2.png" />
+    <Content Include="Image\Dashboard.png" />
+    <Content Include="Image\DispatchNoteS.png" />
+    <Content Include="Image\DispatchNoteS2.png" />
+    <Content Include="Image\Exit.png" />
+    <Content Include="Image\InvDraw.bmp" />
+    <Content Include="Image\Invoice.png" />
+    <Content Include="Image\InvoiceDebit.png" />
+    <Content Include="Image\InvoiceS.png" />
+    <Content Include="Image\InvoiceToDispNoteS.png" />
+    <Content Include="Image\InvPlain.bmp" />
+    <None Include="Image\Logo2.bmp" />
+    <None Include="Image\Logo.png" />
+    <Content Include="Image\Maximize.png" />
+    <Content Include="Image\Minimize.png" />
+    <Content Include="Image\Notification.png" />
+    <Content Include="Image\Product.png" />
+    <Content Include="Image\Suppliers.png" />
+    <Content Include="Image\RecDraw.bmp" />
+    <Content Include="Image\ReceiptS.png" />
+    <Content Include="Image\Settings.png" />
+    <None Include="Image\SupRecDraw.bmp" />
+    <Content Include="Image\SupReceipt.png" />
+    <Content Include="CRM_DB.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CRM_DB_log.ldf">
+      <DependentUpon>CRM_DB.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
